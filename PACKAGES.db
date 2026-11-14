@@ -1,0 +1,285 @@
+name=dejavu-fonts
+version=2.37
+release=1
+description=Czcionki TrueType DejaVu dla srodowiska graficznego
+depends=
+arch=x86_64
+size=987508
+filename=packages/dejavu-fonts-2.37-1-x86_64.wpkg
+sha256=fd722a207d206e75672815dfe672bb156b90fce6eaef3eadf14b0cf79c4eb1b7
+
+name=dmenu
+version=5.3
+release=1
+description=Szybkie menu uruchamiania programow (skrot: Alt+P)
+depends=
+arch=x86_64
+size=17116
+filename=packages/dmenu-5.3-1-x86_64.wpkg
+sha256=353e73402ec232e6a52936927c93a92eb00f568e9e7fa801bfe03f79f8264ce8
+
+name=dropbear
+version=2024.85
+release=1
+description=Lekki serwer i klient SSH (dropbear, dbclient, scp, dropbearkey)
+depends=
+arch=x86_64
+size=139356
+filename=packages/dropbear-2024.85-1-x86_64.wpkg
+sha256=cdac4e274dc8c1f1802272b7ef90d8cb540dcd5b4648e8f046649c103f1a138f
+
+name=dwm
+version=6.5
+release=1
+description=Minimalistyczny, dynamiczny menedzer okien dla X11
+depends=
+arch=x86_64
+size=23372
+filename=packages/dwm-6.5-1-x86_64.wpkg
+sha256=a9f7d973cd1aa1876ad09444ce8fdd9220a7951262f21e16bdfee3252ffb0f07
+
+name=e2fsprogs
+version=1.47.1
+release=1
+description=Narzedzia zarzadzania systemami plikow ext2/ext3/ext4 (mke2fs, mkfs.ext4, fsck)
+depends=
+arch=x86_64
+size=444512
+filename=packages/e2fsprogs-1.47.1-1-x86_64.wpkg
+sha256=b3956ad849ce844e514385be9e47d41178a522d292cea77eb2a89c4ff3705d06
+
+name=micro
+version=2.0.14
+release=1
+description=Nowoczesny edytor tekstu ze wsparciem myszki i podswietlaniem skladni
+depends=
+arch=x86_64
+size=3606432
+filename=packages/micro-2.0.14-1-x86_64.wpkg
+sha256=b5a8aa9edeaf46673c7546c5100396101b6dcda81da095ee07ff40a41f604fdf
+
+name=nano
+version=8.1
+release=2
+description=Prosty edytor tekstu ze wsparciem terminfo (nano)
+depends=
+arch=x86_64
+size=964624
+filename=packages/nano-8.1-1-x86_64.wpkg
+sha256=0c76fa49868b116147b7d1c7271d81537d9512dee2825b76b6581497ce74f116
+
+name=st
+version=0.9.2
+release=1
+description=Lekki, minimalistyczny emulator terminala dla X11
+depends=
+arch=x86_64
+size=34068
+filename=packages/st-0.9.2-1-x86_64.wpkg
+sha256=fe57499f51e033b542494cb14122b38ee3a74e695016ae5921f39113a3b9e1e4
+
+name=terminfo
+version=6.5
+release=1
+description=Baza definicji terminali ncurses (m.in. linux, xterm, vt100)
+depends=
+arch=x86_64
+size=13120
+filename=packages/terminfo-6.5-1-x86_64.wpkg
+sha256=58017243974ad27acc6bde838986db3b7e2250e807427c9fa5858b240134981e
+
+name=wfetch
+version=1.0
+release=1
+description=Wizualne podsumowanie informacji o systemie WlasnyOS (wfetch / neofetch)
+depends=
+arch=x86_64
+size=1020
+filename=packages/wfetch-1.0-1-x86_64.wpkg
+sha256=db3d604355732ee9108f74b9b85064f030016c4bdc48ecb7558fb0698479a2d1
+
+name=wlasnyos-desktop
+version=1.0
+release=1
+description=Pelne srodowisko graficzne (DWM, ST, Dmenu, startx-wlasnyos)
+depends=dwm st dmenu dejavu-fonts wlasnyos-wallpaper
+arch=x86_64
+size=728
+filename=packages/wlasnyos-desktop-1.0-1-x86_64.wpkg
+sha256=9d4d499a9f1ef2f695f9bc6b61afe6bd2640aa6fccb037276d580287354a4172
+
+name=wlasnyos-installer
+version=1.1.0
+release=1
+description=Oficjalny instalator i asystent aktualizacji systemu KhOS z ISO (BIOS + UEFI)
+depends=
+arch=x86_64
+size=1143172
+filename=packages/wlasnyos-installer-1.1.0-1-x86_64.wpkg
+sha256=57cc6a99d4bda6990b157878f3e5979e08dbb61a7aa0816f3de65e40ecd302a6
+
+name=khos-installer
+version=1.1.0
+release=1
+description=Oficjalny instalator i asystent aktualizacji systemu KhOS z ISO (BIOS + UEFI)
+depends=
+arch=x86_64
+size=1143356
+filename=packages/khos-installer-1.1.0-1-x86_64.wpkg
+sha256=424dd978264d8c62293db868312b296ef4c60e59831204db278f74b51a98d91a
+
+name=khos-update
+version=1.1.0
+release=1
+description=Oficjalny asystent aktualizacji systemu KhOS z obrazu ISO (kernel, moduly, pakiety)
+depends=
+arch=x86_64
+size=1143356
+filename=packages/khos-installer-1.1.0-1-x86_64.wpkg
+sha256=424dd978264d8c62293db868312b296ef4c60e59831204db278f74b51a98d91a
+
+name=wpkg
+version=1.1.0
+release=1
+description=Menadzer pakietow dla systemu KhOS ze wsparciem aktualizacji z ISO
+depends=
+arch=x86_64
+size=13532
+filename=packages/wpkg-1.1.0-1-x86_64.wpkg
+sha256=cdd854fec5e4a3d18a8e947df907216dd6adc06ac067d72e035fa91254b13e24
+
+
+name=wlasnyos-wallpaper
+version=1.0
+release=1
+description=Oficjalna tapeta pulpitu dla WlasnyOS
+depends=
+arch=x86_64
+size=852
+filename=packages/wlasnyos-wallpaper-1.0-1-x86_64.wpkg
+sha256=13e5cf8b033e66b3e7002b274bae74893fb706c4d9e8c134cf5df760ac05bf05
+
+name=hyprland
+version=0.54.3
+release=2
+description=Nowoczesny dynamiczny kompozytor kafelkowy Wayland (Hyprland, Foot, Wofi, Seatd)
+depends=
+arch=x86_64
+size=94281912
+filename=packages/hyprland-0.54.3-2-x86_64.wpkg
+sha256=2e1993b0fa9d58c7e98774462b4318bb30036e6d8eb34b1ac09700b23b27cba5
+
+name=openbox
+version=3.6.1
+release=1
+description=Lekki menedzer okien X11 wraz z panelem tint2 i terminalem xterm
+depends=
+arch=x86_64
+size=15597084
+filename=packages/openbox-3.6.1-1-x86_64.wpkg
+sha256=943e1944a2006fc7c3f4b21a135a4157a91463be0995ebba6788baaed1f28370
+
+name=vim
+version=9.1.0707
+release=1
+description=Zaawansowany edytor tekstu (Vim 9.1 z kolorowaniem skladni i xxd)
+depends=
+arch=x86_64
+size=6474212
+filename=packages/vim-9.1.0707-1-x86_64.wpkg
+sha256=886dc685c922f3d5873e309491db5c767eaca3a5bd9bce1dd8d359c699747794
+
+name=openjdk
+version=21.0.12
+release=1
+description=Srodowisko uruchomieniowe i kompilator Java (OpenJDK 21 LTS)
+depends=
+arch=x86_64
+size=131298704
+filename=packages/openjdk-21.0.12-1-x86_64.wpkg
+sha256=d4c56c624299e95572e2d20cea1715296310d787bbddc783e3e3ec3df3a7b503
+
+name=java
+version=21.0.12
+release=1
+description=Srodowisko uruchomieniowe i kompilator Java (OpenJDK 21 LTS)
+depends=
+arch=x86_64
+size=131298704
+filename=packages/openjdk-21.0.12-1-x86_64.wpkg
+sha256=d4c56c624299e95572e2d20cea1715296310d787bbddc783e3e3ec3df3a7b503
+
+name=minecraft
+version=3.16.4
+release=1
+description=Launcher Minecraft Java Edition (HMCL - obsluga wersji 1.0-1.21, modow i kont offline)
+depends=openjdk
+arch=x86_64
+size=9757052
+filename=packages/minecraft-3.16.4-1-x86_64.wpkg
+sha256=c08e225b8f1373a8231079bf97f2c48dd465340575b16bdd937b608830227b67
+
+name=plasma-desktop
+version=6.6.6
+release=1
+description=Nowoczesne srodowisko graficzne KDE Plasma 6 (Wayland i X11: plasmashell, kwin, krunner)
+depends=
+arch=x86_64
+size=475770360
+filename=packages/plasma-desktop-6.6.6-1-x86_64.wpkg
+sha256=fffd1072c8828afeab1a9ebd644979404b9edb7f9a3e134cdbacd047dd39e694
+
+name=kde
+version=6.6.6
+release=1
+description=Nowoczesne srodowisko graficzne KDE Plasma 6 (Wayland i X11: plasmashell, kwin, krunner)
+depends=
+arch=x86_64
+size=475770360
+filename=packages/plasma-desktop-6.6.6-1-x86_64.wpkg
+sha256=fffd1072c8828afeab1a9ebd644979404b9edb7f9a3e134cdbacd047dd39e694
+
+name=plasma
+version=6.6.6
+release=1
+description=Nowoczesne srodowisko graficzne KDE Plasma 6 (Wayland i X11: plasmashell, kwin, krunner)
+depends=
+arch=x86_64
+size=475770360
+filename=packages/plasma-desktop-6.6.6-1-x86_64.wpkg
+sha256=fffd1072c8828afeab1a9ebd644979404b9edb7f9a3e134cdbacd047dd39e694
+
+name=kde-plasma
+version=6.6.6
+release=1
+description=Nowoczesne srodowisko graficzne KDE Plasma 6 (Wayland i X11: plasmashell, kwin, krunner)
+depends=
+arch=x86_64
+size=475770360
+filename=packages/plasma-desktop-6.6.6-1-x86_64.wpkg
+sha256=fffd1072c8828afeab1a9ebd644979404b9edb7f9a3e134cdbacd047dd39e694
+
+name=xfce4
+version=4.20
+release=1
+description=Kompletne, stabilne i lekkie srodowisko graficzne XFCE 4 dla X11 (xfwm4, panel, thunar, xfce4-terminal, sterowniki Xorg)
+depends=
+arch=x86_64
+size=98506496
+filename=packages/xfce4-4.20-1-x86_64.wpkg
+sha256=4f7c1b03b91c49f460b5df9013ed7bf50e508f15a160f2feed1de5467c361250
+
+name=xfce
+version=4.20
+release=1
+description=Kompletne, stabilne i lekkie srodowisko graficzne XFCE 4 dla X11 (xfwm4, panel, thunar, xfce4-terminal, sterowniki Xorg)
+depends=
+arch=x86_64
+size=98506496
+filename=packages/xfce4-4.20-1-x86_64.wpkg
+sha256=4f7c1b03b91c49f460b5df9013ed7bf50e508f15a160f2feed1de5467c361250
+
+
+
+
+
